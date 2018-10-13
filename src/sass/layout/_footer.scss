@@ -1,0 +1,28 @@
+.footer {
+	margin-top: 95px;
+	padding: 30px 0 50px 0;
+	background-color: $gray-lighter;
+	text-align: right;
+}
+
+.socials-title {
+	text-transform: capitalize;
+	color: $black;
+}
+
+.socials {
+	display: inline-block;
+	padding: 0;
+	vertical-align: top;
+	margin-right: -8px;
+
+	li {
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 8px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+}

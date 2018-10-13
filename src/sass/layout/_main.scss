@@ -1,0 +1,96 @@
+body { 
+	font-size: 14px;
+	line-height: 1.7;
+	min-width: 320px;
+	color: $base-text-color;
+	font-family: $base-font-family;
+}
+
+#wrapper {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1090px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.content-wrap {
+	max-width: 900px;
+}
+
+.common-section {
+	margin-bottom: 20px;
+
+	h2, h3, h4 {
+		margin-bottom: 30px;
+	}
+}
+
+.photodiary {
+	img {
+		width: 100%;
+	}
+
+	.image-holder {
+		margin-bottom: 50px;
+	}
+}
+
+.secondary-link {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $gray-light;
+	font-family: $secondary-font-family;
+
+	&:hover {
+		color: $link-hover-color;
+	}
+}
+
+blockquote {
+	margin: 0 0 20px;
+	text-align: center;
+
+}
+
+q {
+	&:before,
+	&:after {
+		display: none;
+	}
+}
+
+ul, ol {
+	margin: 0;
+	padding: 15px;
+}
+
+
+a {
+	color: $link-color;
+
+	&:hover {
+		color: $link-hover-color;
+	}
+}
+
+h1 {
+	font-size: 36px;
+	font-family: $headings-font-family;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
